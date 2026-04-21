@@ -1,0 +1,280 @@
+@import url("./header.css");
+@import url("./rodape.css");
+@import url("./blog.css");
+
+#go-down {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.menu {
+  display: flex;
+}
+#drinks {
+  padding: 15px;
+  position: relative;
+  margin: 15%;
+  margin: 18%;
+  margin: 20px 20px 20;
+  align-items: center;
+  margin-top: 250px;
+  margin-left: 350px;
+  button {
+    background-color: #ad9966;
+    left: 10px;
+  }
+  h1 {
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 7.2px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+}
+#dish {
+  position: relative;
+  background-color: #faf5f0;
+  padding: 150px;
+  top: 0;
+  right: 300px;
+  bottom: 100px;
+  font-family: "Roboto", sans-serif;
+  hr {
+    text-align: center;
+    width: 15vh;
+    margin-left: 10vh;
+  }
+}
+#drinkstext {
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  color: #777777;
+  margin-bottom: 60px;
+}
+
+button {
+  background-color: #2b2820;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+  border: none;
+  position: absolute;
+  width: 18vh;
+  left: 382px;
+}
+
+#description-food {
+  font-size: 15px;
+  color: #777777;
+  text-align: center;
+  height: 40px;
+}
+#food {
+  font-size: 15px;
+  text-align: center;
+  height: 40px;
+  margin-top: 40px;
+}
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+}
+.first-line {
+  display: flex;
+}
+#g1 {
+  position: relative;
+  display: block;
+  margin-top: -100px;
+  margin-left: 20%;
+  margin-right: 25px;
+}
+#g2 {
+  position: relative;
+  display: block;
+  top: 40vh;
+}
+.second-line {
+  display: flex;
+}
+#g3 {
+  position: relative;
+  display: block;
+  top: 310vh;
+  left: 470px;
+  right: 25px;
+  position: absolute;
+}
+#g4 {
+  position: relative;
+  display: block;
+  top: 28vh;
+  left: 98vh;
+  margin-bottom: 80vh;
+}
+.third-line {
+  display: flex;
+}
+#forms {
+  position: relative;
+  display: block;
+  left: 40vh;
+  background-color: #faf5f0;
+  bottom: 40vh;
+  height: 100vh;
+  width: 65vh;
+}
+input {
+  width: 40vh;
+  height: 40px;
+  margin-bottom: 3vh;
+}
+.eventname {
+  width: 52vh;
+  margin-top: 10vh;
+  margin-left: 8.5%;
+}
+.eventdate {
+  width: 25vh;
+  margin-left: 8.5%;
+  margin-right: 2vh;
+}
+.eventtime {
+  width: 25vh;
+}
+.numberofguests {
+  width: 25vh;
+  margin-left: 8.5%;
+  margin-right: 2vh;
+}
+.budget {
+  width: 25vh;
+}
+.contactname {
+  width: 52vh;
+  margin-left: 8.5%;
+}
+.emailaddress {
+  width: 52vh;
+  margin-left: 8.5%;
+}
+.phonenumber {
+  width: 52vh;
+  margin-left: 8.5%;
+}
+.postamessage {
+  width: 52vh;
+  margin-left: 8.5%;
+  height: 150px;
+  text-align: left;
+}
+#rooms-for-private {
+  position: absolute;
+  right: 45vh;
+  top: 418vh;
+  h6 {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    line-height: 8vh;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 100;
+    margin-bottom: 4vh;
+  }
+}
+.rooms-description {
+  font-size: 15px;
+  color: #777777;
+  line-height: 30px;
+}
+
+#chef {
+  position: absolute;
+  bottom: 0;
+  top: 445vh;
+}
+.chef-photo {
+  position: absolute;
+  left: 98vh;
+}
+#quotes {
+  position: relative;
+  top: 90vh;
+  left: 40vh;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  line-height: 8vh;
+  h5 {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+  }
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777777;
+    letter-spacing: 2px;
+    line-height: 3vh;
+  }
+  img {
+    margin-top: 30px;
+  }
+}
+
+#main {
+  position: relative;
+  top: 52vh;
+  left: 37vh;
+}
+#left {
+  position: relative;
+  top: 40vh;
+  right: 90vh;
+}
+#right {
+  position: relative;
+  top: 40vh;
+  left: 33vh;
+}
+#location-title {
+  position: relative;
+  top: 70vh;
+  left: 100vh;
+  h1 {
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 10px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  p {
+    color: #777777;
+  }
+}
+#adress {
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#phone-numbers {
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,231 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+body {
+  position: absolute;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  margin: 0;
+}
+.rooftop {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  margin-left: 50px;
+  letter-spacing: 10px;
+}
+ul {
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 32px;
+  position: sticky;
+}
+li {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin: 0 70px 0 80px;
+  font-weight: 500;
+  font-size: 14px;
+}
+header {
+  text-align: center;
+}
+.logo {
+  width: 10vh;
+}
+.logo > a > img {
+  width: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#header-bg {
+  height: 40vh;
+  width: 150vh;
+  background-image: url(banner-bg.png);
+  background-repeat: no-repeat;
+  position: relative;
+  left: 200px;
+  span {
+    position: relative;
+    top:-40px;
+    left: 60px;
+  }
+}
+#header-bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 72px;
+  margin: 0;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 30px;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.534);
+}
+span {
+  font-size: 18px;
+  margin: 100px;
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.menu {
+  display: flex;
+}
+#drinks {
+  padding: 15px;
+  position: relative;
+  align-items: center;
+  top: 250px;
+  left: 350px;
+}
+#dish {
+  position: relative;
+  background-color: #faf5f0;
+  padding: 150px;
+  top: 0;
+  left: 380px;
+  bottom: 200px;
+  height: 105vh;
+  font-family: "Roboto", sans-serif;
+  hr {
+    text-align: center;
+    width: 15vh;
+    margin-left: 10vh;
+    border-top: 1px solid rgba(161, 157, 157, 0.253);
+  }
+}
+h1 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 7.2px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+#drinkstext {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  color: #777777;
+  margin-bottom: 60px;
+}
+
+#btntext {
+  background-color: #ad9966;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+  border: none;
+  position: absolute;
+}
+#description-food {
+  font-size: 15px;
+  color: #777777;
+  text-align: center;
+  height: 40px;
+}
+#food {
+  font-size: 15px;
+  text-align: center;
+  height: 40px;
+  margin-top: 40px;
+}
+h2 {
+  font-size: 21px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 21px;
+}
+.first-line {
+  display: flex;
+}
+#chef {
+  position: relative;
+}
+#rooftop {
+  font-size: 48px;
+}
+.chef-photo {
+  position: absolute;
+  left: 35vh;
+  top: -150px;
+}
+#quotes {
+  position: absolute;
+  top: 8vh;
+  right: 10vh;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  line-height: 8vh;
+  h5 {
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: "Playfair Display", serif;
+  }
+  p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #777777;
+    letter-spacing: 2px;
+    line-height: 3vh;
+    font-size: 15px;
+  }
+  img {
+    margin-top: 30px;
+  }
+}
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+}
+#main-course{
+  position: absolute;
+  top: 180vh;
+}
+#main {
+  position: relative;
+  top: 52vh;
+  left: 37vh;
+}
+#left {
+  position: relative;
+  top: 40vh;
+  right: 90vh;
+}
+#right {
+  position: relative;
+  top: 40vh;
+  left: 33vh;
+}
